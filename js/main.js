@@ -95,10 +95,10 @@ $(document).ready(function(){
 		easing: 'easeInOutExpo',
 		updateHash: true,
 		beforeStart: function() {
-			console.log('begin scrolling');
+
 		},
 		onComplete: function() {
-			console.log('done scrolling');
+	
 		}
 	});
 	
